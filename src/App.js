@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Posts from '../src/components/Posts'
+import Postform from '../src/components/Postform'
 
 class App extends Component {
   render() {
@@ -11,7 +12,9 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
-        <Posts/>
+        <Postform />
+        <hr />
+        <Posts />
       </div>
     );
   }
